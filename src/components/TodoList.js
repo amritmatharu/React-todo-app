@@ -38,7 +38,7 @@ const ToDoList = () => {
               onClick={() => toggleTask(index)}
               className={
                 task.isCompleted ? "todo-text todo-completed" : "todo-text"
-              }
+              } 
             >
               {task.text}
             </span>
